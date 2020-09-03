@@ -36,7 +36,7 @@ platform :ios do
   end
   
   desc "Run the app tests"
-  lane check do
+  lane :check do
     scan
   end
 
