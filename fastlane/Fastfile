@@ -34,5 +34,10 @@ platform :ios do
   slack(message: "App successfully released!", slack_url: "slack_url")
 
   end
+  
+  desc "Run the app tests"
+  lane :check do
+    scan
+  end
 
 end
