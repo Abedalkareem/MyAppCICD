@@ -4,17 +4,11 @@
 
 <h2>iOS Continuous Integration and Delivery using Bitrise and Fastlane</h2>
 
-Part 1: 
-http://bit.ly/2XYZ80N
+To understand this project better, you should follow this [tutorial](http://omreyh.com/posts/ci-cd-fastlane-bitrise-ios/) which explains continuous integration and delivery, Bitrise, and Fastlane.  
 
-Part 2: 
-http://bit.ly/2Y7q4zw
+The tutorial will take you from zero to implement all the needed things to deploy your app to store 🚀. 
 
-Part 3: 
-http://bit.ly/2O0QOxx
+<center>
+<img src="https://github.com/Abedalkareem/MyAppCICD/blob/master/final_result.png?raw=true" alt=""/>
+</center>
 
-Part 4: 
-http://bit.ly/2SjUjOd
-
-Part 5: 
-http://bit.ly/2YXnkSp
