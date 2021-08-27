@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  @IBOutlet weak var resultLabel: UILabel!
+  @IBOutlet private weak var resultLabel: UILabel!
   
   let myMath = MyMath()
   
@@ -20,15 +20,12 @@ class ViewController: UIViewController {
     myMath.addchangeListener { [unowned self] number in
       self.resultLabel.text = "\(number)"
     }
-    
   }
-  
-  
+
   @IBAction func sum(_ sender: Any) {
     myMath.sum(x: 9, y: 10)
   }
-  
-  
+
   @IBAction func minusOne(_ sender: Any) {
     myMath.minusOne()
   }

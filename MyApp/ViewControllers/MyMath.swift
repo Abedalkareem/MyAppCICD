@@ -35,5 +35,4 @@ class MyMath {
     }
     self.result = result - 1
   }
-
 }

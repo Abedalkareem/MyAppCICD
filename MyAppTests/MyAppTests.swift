@@ -23,13 +23,13 @@ class MyAppTests: XCTestCase {
 
   func testSum5And10() {
     myMath.sum(x: 5, y: 10)
-    assert(myMath.result! == 15, "Wrong in the opration")
+    assert(myMath.result! == 15, "5 plus 10 should be 15 but the result was \(myMath.result!)")
   }
 
   func testMinus1() {
     myMath.sum(x: 5, y: 10)
     myMath.minusOne()
-    assert(myMath.result! == 14, "Wrong in the opration")
+    assert(myMath.result! == 14, "15 minus 1 should be 14 but the result was \(myMath.result!)")
   }
 
 }
